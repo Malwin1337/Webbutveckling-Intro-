@@ -1,0 +1,10 @@
+body {
+    display: flex; 
+}
+
+section{
+    height: 20dvh;
+    width: 20dvw;
+    border: 1px solid black;
+    border-radius: 20px;
+}
