@@ -132,11 +132,28 @@ img{
 }
 
 .side-img {
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px; 
     display: block;     
+}
+
+.side-caption {
+    font-size: 0.85rem;       
+    color: #333232;          
+    font-style: italic;       
+    line-height: 1.4;         
+    margin-top: 10px;         
+    text-align: center;
+
+.toc-block {
+    background-color: #004B87;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-bottom: 4px solid #004B87;
 }
 
 footer {
