@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kontakta oss</title>
+    <link rel="stylesheet" href="style.css"
 </head>
-<body>
-    <header></header>
-    <nav></nav>
-    <main>
-        <form>
-            <label for="name">Namn:</label>
-            <input type="text" name="name" id="name">
+<body class="sida-tva">
+    <nav class="navbar">
+        <a href="index.html">Home </a>
+         <a href="natur.html">Nature and Geography</a>
+        <a href="kultur.html">Culture and Traditions</a>
+        <a href="historia.html">History and Attractions</a>
+        <a href="monarki.html">Monarchy and Royalty</a>
+        <a href="kontakta_oss.html" class="active">Kontakta oss</a>
+    </nav>   
+    <header>
+        <h1>Contact us</h1>
+    </header>
+<main class="grid-container">
+    <div class="blcok center-block">
+        <h2>Send a message</h2>
+        <form class="formular"  action="#" method="post">
+            <div class="falt">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+            </div>
+            
+              <div class="falt">
+                    <label for="email">E-post:</label>
+                    <input type="email" name="email" id="email" autocomplete="email" required>
+                </div>
 
-            <label for="email">E-post</label>
-            <input type="email" name="email" id="email">
+                <div class="falt">
+                    <label for="subject">subject:</label>
+                    <input type="text" name="subject" id="subject">
+                </div>
 
-            <label for="subject">Ämne:</label>
-            <input type="text" name="subject" id="subject">
+                <div class="falt">
+                    <label for="description">Describe your case:</label>
+                    <textarea name="description" id="description" required></textarea>
+                </div>
 
-            <labe for="description">Beskriv ditt ärende</label>
-            <textarea name="description" id="description"></textarea>
+                <button type="submit" class="knapp">Send</button>
         </form>
-    </main>
-    <footer></footer>
+    </div>
+</main>
 </body>
 </html>
